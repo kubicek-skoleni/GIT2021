@@ -10,11 +10,11 @@ namespace ConsoleApp1
 
     public class AppCulture
     {
-        public CultureInfo? VratCulturu(string jazyk)
+        public CultureInfo VratCulturu(string _jazyk)
         {
             try
             {
-                return new CultureInfo(jazyk);
+                return new CultureInfo(_jazyk);
             }
             catch (Exception e)
             {
