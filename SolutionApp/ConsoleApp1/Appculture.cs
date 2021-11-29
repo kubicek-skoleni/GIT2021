@@ -7,27 +7,19 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    
-        public class AppCulture
+
+    public class AppCulture
+    {
+        public CultureInfo? VratCulturu(string jazyk)
         {
-            public CultureInfo? VratCulturu(string jazyk)
+            try
             {
-
-
-                try
-                {
-                    return new CultureInfo(jazyk);
-                }
-                catch (Exception e)
-                {
-                    return null;
-                }
-
-
-
-
-
+                return new CultureInfo(jazyk);
             }
-
-    
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+    }
 }
