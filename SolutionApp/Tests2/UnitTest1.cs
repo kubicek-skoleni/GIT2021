@@ -13,7 +13,7 @@ namespace Tests
 
             var usCulture = new CultureInfo("en-US");
 
-            Assert.AreEqual(culture.Name, usCulture.Name);
+            Assert.AreEqual(culture.Name, usCulture.Name); 
         }
 
         [TestMethod]
