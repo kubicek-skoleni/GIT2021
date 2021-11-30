@@ -10,6 +10,8 @@ namespace ConsoleApp1
 
     public class AppCulture
     {
+
+
         public static CultureInfo? VratCulturu(string jazyk)
         {
             try

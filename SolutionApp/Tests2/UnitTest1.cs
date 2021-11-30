@@ -15,5 +15,13 @@ namespace Tests
 
             Assert.AreEqual(culture.Name, usCulture.Name);
         }
+
+        [TestMethod]
+        public void TestCultureNotNull()
+        {
+            var culture = ConsoleApp1.AppCulture.VratCulturu("EN");
+
+            Assert.IsNotNull(culture);
+        }
     }
 }
