@@ -1,0 +1,21 @@
+0) co je GIT
+	distrubuovany verzovaci system
+	historie kodu
+	spustitelny program
+1) rozdíl mezi COMMIT A PUSH
+	commit lokalni
+	push odesila stav repozitare (vetev,..) do remote
+2) rozdíl mezi PULL A FETCH
+	fetch pouze stahne stav z remote (commity, vetve..)
+	pull = fetch + merge
+3) co dělá GIT CLONE
+	kopii repozitare z remote na local
+4) kolik může mít repo REMOTES
+	kolik chcete
+5) orgnanizace větví "gitflow"
+	branches: main (release), dev -> dev_feature1, dev_feature2, hotfix..
+6) co dělá AMEND COMMIT
+	upravuje posledni commit
+	nedelat kdyz uz je pushnuto
+7) co se stane s WORKING DIR 
+	při změně BRANCH
