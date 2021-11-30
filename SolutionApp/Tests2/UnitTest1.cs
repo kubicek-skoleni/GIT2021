@@ -19,7 +19,7 @@ namespace Tests
         [TestMethod]
         public void TestCultureNotNull()
         {
-            var culture = ConsoleApp1.AppCulture.VratCulturu("EN");
+            var culture = ConsoleApp1.AppCulture.VratCulturu("CZ");
 
             Assert.IsNotNull(culture);
         }
